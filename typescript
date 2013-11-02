@@ -1,0 +1,109 @@
+Script started on Sun 03 Nov 2013 12:14:38 AM IST
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part1/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part1/src$ javac -cp junit-4.11.jar:.  RationalTest.java Rational.java
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part1/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part1/src$ java -cp junit-4.11.jar:.  RationalTest
+.
+Test Minus Overflow....
+F.
+Test for InEquality2....
+.
+Test for InEquality3....
+.
+Test for InEquality1....
+.
+Test Accessors....
+.
+Test absolute value....
+.
+Testing denominator 
+F.
+Testing numerator 
+F.
+Test gcd computation....
+.
+Test lcm....
+.
+Test for Root Computation: upperbound check ....
+.
+Test for Root Computation of 9/16....
+F.
+Test Subtraction....
+.
+Test multiplication....
+.
+Test Addition....
+.
+Test for Root Computation....
+F.
+Test toString....
+.
+Test Constructor1....
+.
+Test Constructor2
+.
+Test get/set tolerance....
+.
+Testing main
+..F.F....F.F
+Time: 0.006
+There were 9 failures:
+1) testMinusOverflow(RationalTest)junit.framework.AssertionFailedError: Integer overflow not handled for subtraction
+	at RationalTest.testMinusOverflow(RationalTest.java:257)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+2) testDen(RationalTest)junit.framework.AssertionFailedError: Denominator out of range not handled
+	at RationalTest.testDen(RationalTest.java:281)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+3) testNum(RationalTest)junit.framework.AssertionFailedError: Numerator out of range not handled
+	at RationalTest.testNum(RationalTest.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+4) testRootcomputation1(RationalTest)junit.framework.AssertionFailedError: Root Computation Method is incorrect: sqrt(9/16) expected:<1029092509/33554432> but was:<3/4>
+	at RationalTest.testRootcomputation1(RationalTest.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+5) testRoot(RationalTest)junit.framework.AssertionFailedError
+	at RationalTest.testRoot(RationalTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+6) testTimesOverflow(RationalTest)junit.framework.AssertionFailedError: Integer overflow not handled for multipliation
+	at RationalTest.testTimesOverflow(RationalTest.java:248)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+7) testPlusOverflow_upper(RationalTest)junit.framework.AssertionFailedError: Integer overflow not handled for addtition
+	at RationalTest.testPlusOverflow_upper(RationalTest.java:238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+8) testDenominator(RationalTest)junit.framework.AssertionFailedError: Denominator cannot be equal to 0
+	at RationalTest.testDenominator(RationalTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+9) testDivideOverflow(RationalTest)junit.framework.AssertionFailedError: Integer overflow not handled for division
+	at RationalTest.testDivideOverflow(RationalTest.java:266)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at RationalTest.main(RationalTest.java:288)
+
+FAILURES!!!
+Tests run: 29,  Failures: 9,  Errors: 0
+
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part1/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part1/src$ exit
+
+Script done on Sun 03 Nov 2013 12:14:54 AM IST
