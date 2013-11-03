@@ -1,0 +1,15 @@
+Script started on Sun 03 Nov 2013 05:42:34 AM IST
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part3/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part3/src$ javac -cp mockobjects-0.6-core.jar:mockobjects-0.6-j1.4-j2ee1.2.jar:selenium-ser ver-standalone-2.11.0.jar:guava-10.0.1.jar:.  TestingLabConverterServlet.java TestLabConverterServlet.java CityTemperatureServiceProvi der.java
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part3/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part3/src$ java -cp mockobjects-0.6-core.jar:mockobjects-0.6-j1.4-j2ee1.2.jar:selenium-serv er-standalone-2.11.0.jar:guava-10.0.1.jar:.  org.junit.runner.JUnitCore TestLabConverterServlet
+JUnit version 4.10
+.Testing the null paramater
+.Testing the bad paramater
+.Testing the valid paramater
+
+Time: 0.063
+
+OK (3 tests)
+
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part3/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part3/src$ exit
+
+Script done on Sun 03 Nov 2013 05:42:55 AM IST
