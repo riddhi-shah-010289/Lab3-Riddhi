@@ -1,0 +1,14 @@
+Script started on Mon 04 Nov 2013 03:54:54 AM IST
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part4/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part4/src$  javac -cp junit-4.11.jar:easymock-3.0.jar:. Mp3Player.java TestMp3PlayerEasyMoc k.java 
+Note: TestMp3PlayerEasyMock.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part4/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part4/src$ java -cp junit-4.11.jar:.:easymock-3.0.jar:objenesis-tck-1.2.jar:cglib-nodep-2.2 .2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestMp3PlayerEasyMock
+JUnit version 4.11
+...
+Time: 0.111
+
+OK (3 tests)
+
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part4/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part4/src$ exit
+
+Script done on Mon 04 Nov 2013 03:55:12 AM IST

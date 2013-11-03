@@ -1,0 +1,14 @@
+Script started on Mon 04 Nov 2013 01:11:23 AM IST
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part4/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part4/src$ javac -cp mockobjects-0.6-core.jar:mockobjects-0.6-j1.4-j2ee1.2.jar:selenium-ser ver-standalone-2.11.0.jar:guava-10.0.1.jar:. MockMp3Player.java TestMp3Player.java 
+Note: TestMp3Player.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part4/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part4/src$ java -cp mockobjects-0.6-core.jar:mockobjects-0.6-j1.4-j2ee1.2.jar:selenium-serv er-standalone-2.11.0.jar:guava-10.0.1.jar:.  org.junit.runner.JUnitCore TestMp3Player
+JUnit version 4.10
+...
+Time: 0.006
+
+OK (3 tests)
+
+]0;pratik@atis: ~/eclipse_projects/Riddhi_Lab3_Part4/srcpratik@atis:~/eclipse_projects/Riddhi_Lab3_Part4/src$ exit
+
+Script done on Mon 04 Nov 2013 01:11:47 AM IST
